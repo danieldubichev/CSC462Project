@@ -6,6 +6,7 @@ To incorporate a local computing aspect into the pre-existing application, it wa
 
 Each time an AUV gathers a new temperature reading, it will ping the base station (the client's local computer) with a ‘keep alive’ message. This message will contain identification of the AUV, the exact geo-location of the AUV at the time of the reading, the newly acquired temperature reading, along with other pertinent metadata. When the base station receives a new ‘keep alive’ message, it will do two things: First, the base station will do initial processing on the data to determine if the temperature reading is above the set threshold or not. Following the processing, the base station will insert all received data into a locally held database. A realtime, visual tracking interface will be available to the end user allowing them to see the exact location of all AUV’s at present time. Also, if an AUV has returned a temperature reading that has been determined to be above the preset threshold, a marker will be overlaid on the visual map, allowing the end users to gain an initial intuition of the data being received without having to initiate any data analytic techniques. Below is a live screenshot of a datapoint with an exceeding temperature threshold, resulting in a red data point representing a warning.
 
+![pasted image 0](https://user-images.githubusercontent.com/31911398/128283890-315c6789-92cd-4972-95f9-093de44064f6.png)
 
 Overlay of the map includes data point “features” which display temperature warnings to the end user.
 
