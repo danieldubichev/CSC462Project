@@ -1,4 +1,4 @@
-# CSC 462 Project - Phase 2
+# CSC 462 Project - Phase 2 - By Dafydd Foster and Daniel Dubichev
 
 Throughout the course, we have been dealing with satellite imagery to derive and quantify information for stakeholders and potential end users. Phase 1 of our project revolved around the U.N’s 17 social development goals. The solution provided algae insights and visualizations of three different test sites across British Columbia, with an app to help uncover algae trends and blooms. Since then, we’ve had meetings and discussions with numerous stakeholders, data scientists, and first nations. The results of these meetings have uncovered specific solution needs, such as drones or sensors monitoring characteristics of specific locations. An example would be sensors monitoring the temperature of different bodies of water. A solution like this could help first nations and others discover suitable locations for harvesting kelp and similar products. This README will overview the proof of concept for the aforementioned water temperature drone system, including design, architecture and prototype ideas. 
 # Design
