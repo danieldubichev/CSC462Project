@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> 
+   
+    </head>
+        <body>
+            <div class="wrapper">
+                <div class="header"></div>
+                <div class="navigation">
+                    <div class="logo">
+                        <h1>SatNews</h1>
+                        <img src="./logo.jpg" width="60" height="60">
+                      
+                    </div>
+                    <div class="nav">
+                        <ul id="nav-list">
+                            <li id="nav1">Victoria</li>
+                            <li id="nav2">Juan de Fuca</li>
+                            <li id="nav3">Haida Gwaii</li>
+                        </ul>
+                    </div>
+
+                    <div class="nav2">
+                        <ul id="nav-list2">
+                            <li id="sensors">Live Sensor</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="config">
+                    <div class="dates">
+                        <div class="group">
+                            <input type="text" id="calendar-tomorrow">
+                            <span class="bar"></span>
+                            <label class="input-label">From</label>
+                        </div>
+                        <div class="group">
+                            <input type="text" id="calendar-tomorrow2">
+                            <span class="bar"></span>
+                            <label class="input-label">To</label>
+                        </div>
+                    </div>
+                    <div class="metrics" id = metrics>
+                        <div class="group2" id="metrics1">
+                            <input type="text" id="calendar-tomorrow3" readonly >
+                            <span class="bar" id="bar1"></span>
+                            <label class="input-label2" id="metric1-label">NDVI</label>
+                        </div>
+                        <div class="group2" id="metrics2">
+                            <input type="text" id="calendar-tomorrow4" readonly >
+                            <span class="bar" id="bar3"></span>
+                            <label class="input-label2" id="metric2-label">NDWI</label>
+                        </div>
+                        <div class="group2" id="metrics3">
+                            <input type="text" id="calendar-tomorrow5" readonly>
+                            <span class="bar" id="bar3"></span>
+                            <label class="input-label2" id="metric3-label">CLM</label>
+                        </div>
+
+                    </div>
+                    <div class="options">
+                       <p>Options coming soon</p>
+		       <div class="submit-btn">
+                        <button class="button" id ="submit-btn">Submit</button>
+                       </div>
+                    </div>
+                </div>
+                <div class="true-colour">
+                    <img id="true-colour-image" src="./images/vic/raw/2017-06-25.png">
+                    <img id="metric-image" src="./images/vic/ndvi/2017-06-25.png">
+                </div>
+              
+                <div class="meta">
+                    <div class="pic-btns" id="pic-btn-background">
+                    	<button class="button-prev" id ="pic-btn1">Previous</button>
+                    	<button class="button-next" id ="pic-btn2">Next</button>
+                    </div>
+	        	</div>
+            </div>
+<script src="./script.js"></script> 
+        </body>
+</html>
