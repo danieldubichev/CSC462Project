@@ -1,6 +1,6 @@
 # CSC462Project
 
-	Throughout the course, we have been dealing with satellite imagery to derive and quantify information for stakeholders and potential end users. Phase 1 of our project revolved around the U.N’s 17 social development goals. The solution provided algae insights and visualizations of three different test sites across British Columbia, with an app to help uncover algae trends and blooms. Since then, we’ve had meetings and discussions with numerous stakeholders, data scientists, and first nations. The results of these meetings have uncovered specific solution needs, such as drones or sensors monitoring characteristics of specific locations. An example would be sensors monitoring the temperature of different bodies of water. A solution like this could help first nations and others discover suitable locations for harvesting kelp and similar products. This paper will overview the proof of concept for the aforementioned water temperature drone system, including design, architecture and prototype ideas. 
+Throughout the course, we have been dealing with satellite imagery to derive and quantify information for stakeholders and potential end users. Phase 1 of our project revolved around the U.N’s 17 social development goals. The solution provided algae insights and visualizations of three different test sites across British Columbia, with an app to help uncover algae trends and blooms. Since then, we’ve had meetings and discussions with numerous stakeholders, data scientists, and first nations. The results of these meetings have uncovered specific solution needs, such as drones or sensors monitoring characteristics of specific locations. An example would be sensors monitoring the temperature of different bodies of water. A solution like this could help first nations and others discover suitable locations for harvesting kelp and similar products. This paper will overview the proof of concept for the aforementioned water temperature drone system, including design, architecture and prototype ideas. 
 # Design
 To incorporate a local computing aspect into the pre-existing application, it was decided to utilize a localized ad hoc network of autonomous underwater vehicles (AUV’s), producing an Internet Of Things (IOT) based solution. Each AUV’s mission is to take a temperature reading of the surrounding water every second as they traverse through their dedicated regions. If at any point the temperature is read to be above a predetermined threshold, the geo-location will be flagged as an unfit location for future kelp farms. Each AUV’s respective region is determined by preset geo-points, creating an Area-Of-Interest (AOI). These AOI’s would be dynamically controllable to the end user, allowing for either a moving search grid structure or a refinement of a curtain AOI giving a higher sampling to area ratio. 
 
@@ -19,6 +19,6 @@ By harnessing OpenLayers’ map functionality, we were able to render a proper m
 
 [1] https://openlayers.org/
 
-[2]https://www.arcgis.com/index.html
+[2] https://www.arcgis.com/index.html
 
 
